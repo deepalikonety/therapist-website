@@ -31,13 +31,13 @@ GitHub Repo 👉 [GitHub](https://github.com/deepalikonety/therapist-website)
 
 ### 🏔️ Hero Section
 
-![Hero Section](public/readme/hero.png)
+![Hero Section](public/readme/hero.jpg)
 
 ---
 
 ### 👩‍⚕️ About Dr. Serena Blake
 
-![About Section](public/readme/about.png)
+![About Section](public/readme/about.jpg)
 
 ---
 
