@@ -2,7 +2,7 @@
 
 This is a clean, mobile-responsive website built for **Dr. Serena Blake, PsyD**, a fictional clinical psychologist, as part of the [Grow My Therapy](https://growmytherapy.com/internship-assignment/) internship assignment.
 
-Live Demo 👉 [Vercel Link](https://your-vercel-link.vercel.app)  
+Live Demo 👉 [Vercel Link](https://therapist-website-alpha.vercel.app)  
 GitHub Repo 👉 [GitHub](https://github.com/deepalikonety/therapist-website)
 
 ---
