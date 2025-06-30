@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Therapist Website - Internship Assignment
 
-## Getting Started
+This is a clean, mobile-responsive website built for **Dr. Serena Blake, PsyD**, a fictional clinical psychologist, as part of the [Grow My Therapy](https://growmytherapy.com/internship-assignment/) internship assignment.
 
-First, run the development server:
+Live Demo 👉 [Vercel Link](https://your-vercel-link.vercel.app)  
+GitHub Repo 👉 [GitHub](https://github.com/deepalikonety/therapist-website)
+
+---
+
+## 🧠 Tech Stack
+
+- [Next.js 14](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- Deployed on [Vercel](https://vercel.com/)
+
+---
+
+## ✨ Features
+
+- 📱 Fully Responsive (Mobile, Tablet, Desktop)
+- 📽️ Hero section with calming video background
+- 🧍‍♀️ Therapist bio, location, contact & office hours
+- 🧰 Services with session fees
+- ❓ Interactive FAQ (Accordion UI)
+- 📬 Fully validated contact form
+
+---
+
+## 📸 Screenshots
+
+### 🏔️ Hero Section
+
+![Hero Section](public/readme/hero.png)
+
+---
+
+### 👩‍⚕️ About Dr. Serena Blake
+
+![About Section](public/readme/about.png)
+
+---
+
+## 📋 Pages & Sections
+
+- `/` (Home Page)
+  - Hero
+  - About
+  - Services
+  - FAQ
+  - Contact
+
+- `/submissions` (After submission confirmation)
+
+---
+
+## 📞 Contact Form Fields
+
+- Name
+- Phone
+- Email
+- What brings you here?
+- Preferred time to reach you
+- Agree to be contacted (checkbox)
+
+---
+
+## 📦 How to Run Locally
 
 ```bash
+git clone https://github.com/yourusername/therapist-website.git
+cd therapist-website
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+```
+🔒 Environment Notes
+This project uses no external API keys or private environment variables. All content is static and generated via the App Router.
+
+```
+🧘 Final Thoughts
+Designed to provide a calm, welcoming, and professional experience — just like a real therapy website should.
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📌 Replace placeholders:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Replace:
+  - `https://your-vercel-link.vercel.app` with your actual Vercel deploy link
+  - `https://github.com/yourusername/therapist-website` with your actual GitHub repo
+  - Add actual screenshots to `public/readme/hero.png` and `public/readme/about.png`
 
-## Learn More
+You can take screenshots using `Snipping Tool` or `Cmd + Shift + 4` and save them in:
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
