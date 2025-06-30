@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@tailwind utilities;
+
+/* Dark mode variant setup */
+@custom-variant dark (&:is(.dark *));
+
+/* Correctly mapped font CSS variables */
+:root {
+  --font-heading: var(--font-playfair);      /* match layout.tsx variable */
+  --font-body: var(--font-sourceSans);       /* match layout.tsx variable */
+}
+
+/* Base layout styling */
+html,
+body {
+  @apply text-gray-900 scroll-smooth;
+  font-family: var(--font-body), sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), serif;
+  @apply font-semibold text-gray-800;
+}
+
+/* Links */
+a {
+  @apply text-blue-600 hover:text-blue-800 transition duration-200;
+  text-decoration: none;
+}
+
+/* Buttons */
+button {
+  @apply focus:outline-none transition duration-200;
+}
+
+/* Form Inputs */
+input,
+textarea,
+select {
+  @apply border border-gray-300 rounded-md px-3 py-2 text-sm w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+}
+
+/* Checkbox style fix */
+input[type="checkbox"] {
+  @apply w-4 h-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded;
+}
+
+/* Section spacing */
+section {
+  @apply py-16 px-6 md:px-12;
+}
+
+/* Shadow utility */
+.text-shadow {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Video background helper */
+.video-background {
+  @apply absolute top-0 left-0 w-full h-full object-cover;
+}
+.input {
+  @apply border border-gray-300 rounded-md px-4 py-2 text-sm w-full focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-400;
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out;
+}
